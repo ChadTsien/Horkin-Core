@@ -1,0 +1,10 @@
+# Copy to /etc/apt/preferences.d/horkin (setup_deps.sh does this).
+# Keeps apt from upgrading Pinocchio 2.7.0 to 3.x / 4.x.
+
+Package: robotpkg-pinocchio
+Pin: version 2.7.0
+Pin-Priority: 1001
+
+Package: robotpkg-hpp-fcl
+Pin: version 2.4.4
+Pin-Priority: 1001
