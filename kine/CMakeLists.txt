@@ -3,6 +3,7 @@
 
 add_library(horkin_kine STATIC
   robot_model.cpp
+  ik_dls.cpp
 )
 target_link_libraries(horkin_kine
   PUBLIC horkin_types
